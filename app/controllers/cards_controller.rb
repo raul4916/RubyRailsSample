@@ -68,7 +68,7 @@ class CardsController < ApplicationController
 	# GET /cards/validate/1
 	def validate
 		respond_to do |format|
-			format.json { render json: { valid: !title_exists || validate_params} }
+			format.json { render json: { valid: !title_exists || validate_params } }
 		end
 	end
 
@@ -92,7 +92,10 @@ class CardsController < ApplicationController
 
 
 	def validate_params
-		if params[:title].length > 255 || !(params[:category_id] =~ /[0-9]{1,3}/) || params[:category_id].to_i < 0 || params[:category_id].to_i > 100
+		if params[:title].length > 255 ||
+				!(params[:category_id] =~ /[0-9]{1,3}/) || params[:category_id].to_i < 0 || params[:category_id].to_i > 100 ||
+				params[:body].length <= 5000
+			
 			return false
 		end
 		true
