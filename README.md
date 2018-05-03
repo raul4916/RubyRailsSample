@@ -128,6 +128,7 @@ update specified card
  ]
 ```
 #### On failure:
+```
 {
 	status:"error", 
 	message:<Error description>
