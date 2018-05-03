@@ -135,14 +135,6 @@ update specified card
 ```
 
 ### Request: cards/::DELETE
-Get all cards
+Delete all cards
 ### Response: 
 	No response
-
-
-	
-	
-	
-
-
-****************************
