@@ -15,7 +15,6 @@ The web page should open automatically.
 Now the UI is ready to be used, make sure that you successfully started the backend with the Instructions for Running Ruby on Rails above.
 
 If having difficulties you may access a live demo on sample.rgms.photography  
-## 													(If it does not pop up, ISP problems, go to dangerapp.rgms.photography)
 
 
 ## Instructions for Running Ruby on Rails. (Assuming on a Linux box using bash)
