@@ -19,8 +19,8 @@ If having difficulties you may access a live demo on sample.rgms.photography
 
 ## Instructions for Running Ruby on Rails. (Assuming on a Linux box using bash)
 
-1. Install Ruby on Rails as root on the most up-to-date version
-   Code on Ubuntu:
+1. Install Ruby to version 2.5.0 or change version listed inside of Gemfile to the version you installed. Also install Rails as root on the most up-to-date version
+   Commands on Ubuntu:
 	```
 	sudo apt-get install ruby
 	sudo apt-get install rails
